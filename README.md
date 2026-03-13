@@ -210,6 +210,23 @@ This project demonstrates the following **Data Analyst skills**:
 * Model Evaluation
 * Business Insight Generation
 
+## Interactive Dashboard
+
+An interactive dashboard was created using **Streamlit** to visualize housing market insights.
+
+The dashboard allows users to:
+
+* Explore housing price distribution
+* Analyze the relationship between median income and house prices
+* Compare house prices based on ocean proximity
+* View dataset previews interactively
+
+To run the dashboard:
+
+```
+streamlit run dashboard/streamlit_app.py
+```
+
 ---
 
 # Getting Started
