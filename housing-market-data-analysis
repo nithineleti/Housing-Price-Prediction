@@ -1,19 +1,21 @@
-housing-market-data-analysis
+Housing-Price-Prediction
 │
 ├── data
 │   └── housing.csv
 │
 ├── notebooks
-│   └── housing_market_data_analysis.ipynb
+│   └── housing_market_analysis.ipynb
 │
 ├── images
-│   └── visualizations
+│
+├── models
+│   └── trained_model.pkl
+│
+├── dashboard
+│   └── streamlit_app.py
 │
 ├── sql
 │   └── housing_analysis.sql
-│
-├── dashboard
-│   └── housing_dashboard.pbix
 │
 ├── requirements.txt
 │
