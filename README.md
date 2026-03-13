@@ -104,6 +104,20 @@ This project explores the housing dataset to answer several key business questio
 These questions guide the exploratory data analysis and help derive insights that can support data-driven decision-making in the housing market.
 
 
+## SQL Analysis
+
+SQL queries were used to perform additional data analysis on the housing dataset.
+
+Examples include:
+
+* Calculating average house prices by ocean proximity
+* Identifying the most expensive houses
+* Analyzing median income trends across locations
+* Exploring population effects on housing prices
+
+These queries demonstrate data querying and aggregation skills that are essential for Data Analyst roles.
+
+
 # Key Insights
 
 The analysis revealed several important insights:
