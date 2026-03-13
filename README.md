@@ -91,6 +91,19 @@ Examines whether population density affects property prices.
 
 ---
 
+## Business Questions
+
+This project explores the housing dataset to answer several key business questions related to real estate pricing:
+
+* What factors influence house prices the most?
+* Do houses located near the ocean have higher prices?
+* How does median income affect housing prices?
+* Does population density influence property value?
+* How does geographic location impact housing prices?
+
+These questions guide the exploratory data analysis and help derive insights that can support data-driven decision-making in the housing market.
+
+
 # Key Insights
 
 The analysis revealed several important insights:
