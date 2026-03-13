@@ -1,77 +1,226 @@
-# House Price Prediction Model
+# Housing Market Data Analysis & House Price Prediction
 
-This project implements a house price prediction model using statistical analysis and machine learning techniques. The model uses the California Housing dataset to predict median house values based on various features.
+This project analyzes housing market data and builds a regression model to predict house prices using statistical and machine learning techniques. The analysis is based on the **California Housing dataset** and focuses on identifying the key factors that influence housing prices.
 
-## Project Overview
+The project demonstrates **data analysis, visualization, statistical modeling, and business insight generation**, making it suitable for **Data Analyst and Data Science portfolio projects**.
 
-The project uses StatsModels and Scikit-learn to build a regression model for predicting house prices. It includes data exploration, preprocessing, model training, and evaluation steps.
+---
 
-## Dependencies
+# Project Overview
 
-- Python 3.x
-- pandas
-- matplotlib
-- seaborn
-- statsmodels
-- scikit-learn
-- numpy
+The goal of this project is to analyze housing market trends and predict median house values based on multiple features such as income, location, population, and housing characteristics.
 
-## Dataset
+The project includes:
 
-The project uses the California Housing dataset (`housing.csv`) which includes the following features:
-- Median income
-- Housing features
-- Geographic information
-- Median house values (target variable)
+* Data exploration and cleaning
+* Exploratory Data Analysis (EDA)
+* Statistical modeling using **StatsModels OLS regression**
+* Machine learning workflow using **Scikit-learn**
+* Data visualization and interpretation
+* Model performance evaluation
 
-## Project Structure
+---
 
-The project is organized into several key tasks:
+# Dataset
 
-1. Data Import and Setup
-2. Dataset Loading and Initial Exploration
-3. Data Exploration and Analysis
-4. Null Value Handling
-5. Data Preparation and Feature Engineering
-6. Model Training using StatsModels OLS
-7. Model Evaluation and Visualization
+The project uses the **California Housing dataset (`housing.csv`)**.
 
-## Key Features
+### Features in the dataset:
 
-- Comprehensive data exploration and visualization
-- Feature engineering with one-hot encoding
-- Statistical modeling using OLS (Ordinary Least Squares)
-- Model performance visualization
-- Mean Squared Error evaluation
+* Longitude
+* Latitude
+* Housing Median Age
+* Total Rooms
+* Total Bedrooms
+* Population
+* Households
+* Median Income
+* Ocean Proximity
+* Median House Value (Target Variable)
 
-## Visualizations
+---
 
-The project includes several visualizations:
-- Correlation analysis between features
-- Linear correlation between median income and house values
-- Prediction vs actual value comparison plots
+# Project Workflow
 
-## Model Performance
+The analysis follows these main steps:
 
-The model's performance is evaluated using:
-- Statistical summary from StatsModels
-- Mean Squared Error metrics
-- Visual comparison of predicted vs actual values
+1. Import Libraries and Setup Environment
+2. Load and Explore the Dataset
+3. Data Cleaning and Null Value Handling
+4. Exploratory Data Analysis (EDA)
+5. Correlation Analysis Between Features
+6. Feature Engineering and Encoding
+7. Train-Test Data Splitting
+8. Linear Regression Modeling using StatsModels
+9. Model Evaluation and Prediction Visualization
+10. Business Insight Generation
 
-## Getting Started
+---
 
-1. Clone this repository
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the Jupyter notebook `Statsmodel.ipynb`
+# Exploratory Data Analysis
 
-## Results
+Several visualizations were created to understand the dataset and identify important relationships between variables.
 
-The model provides insights into housing price predictions with visualizations showing the relationship between actual and predicted values. The implementation includes statistical analysis to understand feature importance and model performance.
+### Distribution of House Prices
 
-## License
+Shows the overall distribution of median house values.
 
-This project is open-source and available under the MIT License.
-# Housing-Price-Prediction
+### Correlation Heatmap
+
+Analyzes relationships between all numerical features.
+
+### Ocean Proximity vs House Price
+
+Compares housing prices across different geographic locations.
+
+### Median Income vs House Price
+
+Shows the strong relationship between income levels and property values.
+
+### Average House Price by Location
+
+Summarizes pricing trends based on proximity to the ocean.
+
+### Geographic Housing Price Map
+
+Visualizes the geographic distribution of housing prices using latitude and longitude.
+
+### Population vs House Price
+
+Examines whether population density affects property prices.
+
+---
+
+# Key Insights
+
+The analysis revealed several important insights:
+
+* **Median income is the strongest predictor of housing prices.**
+* Houses located **near the ocean generally have higher prices**.
+* **Inland houses have lower average housing prices.**
+* Geographic location significantly affects property values.
+* Population has a weaker relationship with housing prices compared to income.
+
+These insights highlight the importance of **economic and geographic factors** in determining housing market trends.
+
+---
+
+# Model Implementation
+
+The regression model was implemented using **StatsModels Ordinary Least Squares (OLS)**.
+
+### Model Steps
+
+1. Feature preparation and one-hot encoding
+2. Train-test data split
+3. OLS regression model training
+4. Model summary interpretation
+5. Prediction generation
+6. Model performance evaluation
+
+---
+
+# Model Evaluation
+
+Model performance was evaluated using:
+
+* **StatsModels statistical summary**
+* **Mean Squared Error (MSE)**
+* **Root Mean Squared Error (RMSE)**
+* **R² Score**
+
+Visual comparisons between **actual and predicted house prices** were also created to assess model accuracy.
+
+---
+
+# Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* StatsModels
+* Scikit-learn
+* Jupyter Notebook
+
+---
+
+# Project Structure
+
+```
+Housing-Price-Prediction
+│
+├── data
+│   └── housing.csv
+│
+├── notebooks
+│   └── housing_market_data_analysis.ipynb
+│
+├── images
+│   └── visualizations
+│
+├── sql
+│   └── housing_analysis.sql
+│
+├── requirements.txt
+│
+└── README.md
+```
+
+---
+
+# Skills Demonstrated
+
+This project demonstrates the following **Data Analyst skills**:
+
+* Data Cleaning
+* Exploratory Data Analysis
+* Data Visualization
+* Statistical Modeling
+* Regression Analysis
+* Feature Engineering
+* Model Evaluation
+* Business Insight Generation
+
+---
+
+# Getting Started
+
+### 1. Clone the repository
+
+```
+git clone https://github.com/yourusername/Housing-Price-Prediction.git
+```
+
+### 2. Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### 3. Run the notebook
+
+Open and run:
+
+```
+housing_market_data_analysis.ipynb
+```
+
+---
+
+# Results
+
+The project successfully demonstrates how statistical analysis and machine learning can be used to understand housing market trends and predict house prices. The insights obtained from this analysis can help support **data-driven decision-making in real estate markets**.
+
+---
+
+# Author
+
+**Nithin Pious**
+
+---
+
+# License
+
+This project is open-source and available under the **MIT License**.
