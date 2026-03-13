@@ -221,6 +221,24 @@ The dashboard allows users to:
 * Compare house prices based on ocean proximity
 * View dataset previews interactively
 
+### Machine Learning Models
+
+Several regression models were implemented to predict house prices:
+
+* Linear Regression
+* Random Forest Regressor
+
+Model performance was evaluated using:
+
+* Root Mean Squared Error (RMSE)
+* R² Score
+* Cross Validation
+
+Hyperparameter tuning was performed using GridSearchCV to improve model performance.
+
+Feature importance analysis was conducted to identify the most influential variables affecting housing prices.
+
+
 To run the dashboard:
 
 ```
